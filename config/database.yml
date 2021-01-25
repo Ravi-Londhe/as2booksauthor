@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: d_development
+  database: as2booksauthor_development
   username: ravi
   password: 123456
 
@@ -59,7 +59,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: d_test
+  database: as2booksauthor_test
   username: ravi
   password: 123456
 
